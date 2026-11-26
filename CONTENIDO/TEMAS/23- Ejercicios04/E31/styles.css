@@ -1,0 +1,29 @@
+.semaforo{
+    width: 70px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color:rgb(219, 192, 34);
+    border-radius: 5px;
+}
+
+.luz{
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    border-radius:100%;
+    margin-bottom: 10px;
+    background-color:#020202;
+    border:5px solid black;
+}
+
+.rojo.activa{
+    background-color: red;
+}
+
+.amarillo.activa{
+    background-color: rgb(207, 207, 35);
+}
+
+.verde.activa{
+    background-color: green;
+}

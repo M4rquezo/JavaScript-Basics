@@ -1,0 +1,11 @@
+    // Ejemplo 4    
+
+
+    let buentiempo = true 
+
+    if(!buentiempo){ // ! es el operador de negación, si buentiempo es falso, entonces se ejecuta el bloque de código del if
+    console.log("no podemos salir al parque");
+}else{ // si la condición es falsa, entonces se ejecuta el bloque de código del else
+        console.log("podemos salir al parque")
+// si buentiempo es verdadero, entonces se ejecuta el bloque de código
+}

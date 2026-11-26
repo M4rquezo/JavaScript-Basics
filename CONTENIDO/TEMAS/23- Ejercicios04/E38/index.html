@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="ejercicio38.js" defer></script>
+   
+    <title> E38 JS </title>
+
+</head>
+<body>
+
+    <h1> Ejercicio 38 validacion   Con JavaScript - David Marquez</h1>
+   
+    <form action="#" method="post" id="formulario">
+
+    <label for="nombre">Nombre: </label> <br/> 
+    <input type="text" id="nombre" name="nombre" /> <br/>  
+    <span  id="error_nombre"></span><br/> <br/>
+
+    <!-- La etiqueta span nos permite mostrar mensajes -->
+    <label for="apellidos"> Apellidos:</label> <br/>
+    <input type="text" id="apellidos" name="apellidos" /> <br/>
+    <span  id="error_apellidos"></span><br/> <br/>
+
+    <label for="edad">Edad: </label> <br/> 
+    <input type="number" id="edad" name="edad" /><br/>
+    <span  id="error_edad"></span><br/> <br/>
+    
+    <input type="submit" id="submit" value="Enviar" />      
+</form>
+
+<div class="info">
+    <h3> Informacion del USUARIO </h3>
+    <hr/>
+
+    <p id="info_nombre">
+        Nombre:  <strong></strong>
+    </p>
+
+    <p id="info_apellidos">
+        Apellidos:  <strong></strong>
+    </p>
+
+    <p id="info_edad">
+        Edad:  <strong></strong>
+    </p>
+
+</div>
+</body>
+</html>

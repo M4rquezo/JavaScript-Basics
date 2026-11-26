@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="eventos.js" defer></script>
+    <title>Eventos</title>
+</head>
+<body>
+    <h1> Eventos en javascript</h1>
+
+    <h2> mdn web referencia de evenetos </h2>
+    
+    <ul>
+        <li>
+            <p>Evento Click</p>
+            <button id="Receptorc"> ¡Hazme Click! 
+                            </button>
+   </li>
+      <li>
+            <p>Evento Dbl Click</p>
+            <button id="botonDoble"> ¡Dos veces Click! 
+                            </button>
+
+    <li>
+    <p>Evento MouseOver, MouseOut, MouseMove ;</p>
+    <textarea id ="cajaTexto"> "Pasando porencima  </textarea>
+
+</li>
+
+   
+<li>
+    <p>Evento keydown, evento keyup, evento keypress;</p>
+    <input type= "text" id ="campoTexto"></input>
+   </li>
+<li> 
+      
+      <p>  Evento submit, input, focus, blur y changes</p>
+
+        <form id ="superFormulario">
+            <input type="text" placeholder="Nombe"  id="nombre"/>
+            <br/>
+
+            <input type="email" placeholder="Correo Electronico"  id="email"/>
+            <br/>
+
+            <select id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select> <br/>
+            
+            
+            <input type="submit" value="Enviar" />
+            
+        </form> </li>
+
+        <li>
+            <p> Evento copy, paste, cut, contextmenu; </p>
+                <input type="text" id="portapapeles" value="info portapapeles" />
+        </li>
+
+         <li>
+            <p> Dejar de escuchar eventos  </p>
+                <button id="botoncito2"> ¡Soy Botoncito2! Dame otro click! </button>
+        </li>
+
+        <li id="cajaPadre">
+            <p> Propagacion:  </p>
+                <button id="botonHijo"> ¡Clickeame! </button>
+        </li>
+</ul>
+    
+</html>
